@@ -5,7 +5,8 @@
   "main": "lambda.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "migrate": "node scripts/migrate.js"
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
